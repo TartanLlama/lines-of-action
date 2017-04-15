@@ -1,0 +1,18 @@
+[package]
+name = "lines-of-action"
+version = "0.1.0"
+authors = ["Simon Brand <simon@codeplay.com>"]
+
+[dependencies]
+sfml="0.9.3"
+regex="0.1.8"
+log="*"
+env_logger="*"
+
+[lib]
+name = "lines_of_action"
+path = "src/lib.rs"
+
+[[bin]]
+name = "loa-server"
+path = "src/main.rs"

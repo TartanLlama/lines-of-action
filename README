@@ -1,0 +1,5 @@
+Run with "cargo run"
+Build documentation with "cargo doc"
+Run test client with "cargo run --example demo_client"
+
+Network protocol and API are documented in the documentation (dur).
